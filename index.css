@@ -59,3 +59,21 @@ h3 {
 
     font-size: 30px;
 }
+
+.score:hover {
+    background-color: #2D3A68;
+}
+
+.score:active {
+    background-color: #151B3B ;
+}
+
+.clearDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.clearBTN {
+    padding: 15px 32px;
+    font-size: 16px;
+}

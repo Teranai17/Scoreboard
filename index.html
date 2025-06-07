@@ -11,9 +11,9 @@
                     0
                 </div>
                 <div class="plusScore">
-                    <div class="score">+1</div>
-                    <div class="score">+2</div>
-                    <div class="score">+3</div>
+                    <div class="score" onclick="addOneHome()">+1</div>
+                    <div class="score" onclick="addTwoHome()">+2</div>
+                    <div class="score" onclick="addThreeHome()">+3</div>
                 </div>
             </div>
             <div>
@@ -22,11 +22,15 @@
                     0
                 </div>
                 <div class="plusScore">
-                    <div class="score">+1</div>
-                    <div class="score">+2</div>
-                    <div class="score">+3</div>
+                    <div class="score" onclick="addOneGuest()">+1</div>
+                    <div class="score" onclick="addTwoGuest()">+2</div>
+                    <div class="score" onclick="addThreeGuest()">+3</div>
                 </div>
             </div>
+            
+        </div>
+        <div class="clearDiv">
+            <button class="clearBtn" onclick="clearBtn()">Clear</button>
         </div>
         <script src="index.js"></script>
     </body>
