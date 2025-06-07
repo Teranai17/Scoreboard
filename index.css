@@ -24,6 +24,7 @@ h3 {
     background-color: #080001;
     color: #F59E0B;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 5px solid #ffffff;
     border-radius: 10px;
     width: 400px;
     height: 200px;
@@ -50,7 +51,6 @@ h3 {
     height: 100px;
 
     color: white;
-    border: 1px solid white;
     border-radius: 10px;
 
     margin: 30px 10px;
