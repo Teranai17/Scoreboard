@@ -1,8 +1,61 @@
 body {
     margin: 0;
+    background-color: #1B244A;
+    
 }
 
 .container {
+    color: white;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 60px;
+}
+
+#homeScore, #guestScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #080001;
+    color: #F59E0B;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+
+    text-align: center;
+    font-size: 100px;   
+}
+
+.plusScore {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1B244A;
+    width: 100px;
+    height: 100px;
+
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    margin: 30px 10px;
+
+    font-family: 'Cursed Timer ULiL', sans-serif;
+
+    font-size: 30px;
 }
